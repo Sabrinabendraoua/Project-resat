@@ -1,4 +1,4 @@
-const Paragraph = (props) => {
+const Paragraph = () => {
   return (
     <p className="text">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ipsa harum
