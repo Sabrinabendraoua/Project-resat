@@ -4,12 +4,10 @@ import Paragraph from "./Paragraph";
 
 const Content = (props) => {
   return (
-    <>
-      <div className="Tilte-P">
-        <Title name={props.name} />
-        <Paragraph text={props.text} />
-      </div>
-    </>
+    <div className="Tilte-P">
+      <Title name={props.name} />
+      <Paragraph text={props.text} />
+    </div>
   );
 };
 // J'exporte mon composant App pour l'importer dans main.jsx

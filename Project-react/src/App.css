@@ -14,12 +14,12 @@
   justify-content: center;
   margin-bottom: 30px;
 }
-.title-h1 {
+h2 {
   font-weight: bold;
   font-size: 20px;
   text-align: left;
 }
-.text {
+p {
   text-align: justify;
   margin: 10px 10px 0 0;
 }
