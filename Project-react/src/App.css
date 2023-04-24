@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.Tilte-P {
+  background-color: rgb(195, 195, 195);
+  height: 250px;
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.title-h1 {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+}
+.text {
+  text-align: justify;
+  margin: 10px 10px 0 0;
+}
