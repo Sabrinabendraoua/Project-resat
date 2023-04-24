@@ -3,18 +3,19 @@ import "./App.css";
 
 // Import des composants
 import Title from "./components/Title";
-import Text from "./components/Text";
+import Paragraph from "./components/Paragraph";
 
 const App = () => {
   return (
     <>
       <div className="Tilte-P">
         <Title name="Lorem" />
-        <Text />
+        <Paragraph text="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis deserunt ducimus autem corporis! Maxime, excepturi dolorum quibusdam eius unde commodi fuga, eligendi id, eaque inventore tempore ex quo architecto numquam!" />
       </div>
+
       <div className="Tilte-P">
         <Title name="Ipsum" />
-        <Text />
+        <Paragraph text="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis deserunt ducimus autem corporis! Maxime, excepturi dolorum quibusdam eius unde commodi fuga, eligendi id, eaque inventore tempore ex quo architecto numquam! .Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis deserunt ducimus autem corporis! Maxime, excepturi dolorum quibusdam eius unde commodi fuga, eligendi id, eaque inventore tempore ex quo architecto numquam" />
       </div>
     </>
   );
